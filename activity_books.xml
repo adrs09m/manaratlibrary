@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context=".BorrowBooksActivity">
+
+    <!-- الشريط العلوي -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1976D2"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:title="مكتبة الإعارة"
+        android:titleTextColor="@android:color/white"
+        android:padding="16dp" />
+
+    <!-- مربع البحث -->
+    <EditText
+        android:id="@+id/searchInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="ابحث عن كتاب أو مؤلف"
+        android:padding="12dp"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:layout_margin="12dp" />
+
+    <!-- قائمة الكتب -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE"
+    android:layoutDirection="rtl"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/support_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_support"
+        android:contentDescription="دعم الطلبة" />
+
+    <TextView
+        android:layout_below="@id/support_icon"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دعم الطلبة"
+        android:textColor="#0288D1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

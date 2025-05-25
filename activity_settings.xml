@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/adminPanelLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_admin"
+                app:tint="#000000"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/adminPanelTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="لوحة المشرف"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow"
+                app:tint="#888888" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profileSettingsLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_account"
+                app:tint="#000000"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/profileSettingsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="الحساب"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow"
+                app:tint="#888888" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/notificationsSettingsLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_notifications"
+                app:tint="#000000"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/notificationsSettingsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="الإشعارات"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow"
+                app:tint="#888888" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aboutUsLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_admin"
+                app:tint="#000000"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/aboutUsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="عن التطبيق"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow"
+                app:tint="#888888" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contactUsLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_contact"
+                app:tint="#000000"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/contactUsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="تواصل معنا"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow"
+                app:tint="#888888" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/logoutLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_logout"
+                app:tint="#000000"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/logoutTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تسجيل الخروج"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

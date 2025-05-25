@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layoutDirection="rtl">
+
+        <ImageView
+            android:id="@+id/book_cover_image"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_book_placeholder"
+            android:contentDescription="غلاف الكتاب"
+            android:layout_marginStart="16dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginEnd="16dp">
+
+            <TextView
+                android:id="@+id/book_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عنوان الكتاب"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/book_author_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اسم المؤلف"
+                android:textSize="16sp"
+                android:textColor="#777"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/book_publisher_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اسم الناشر"
+                android:textSize="14sp"
+                android:textColor="#999" />
+
+            <TextView
+                android:id="@+id/book_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="متاح"
+                android:background="@drawable/status_available_bg"
+                android:textColor="#fff"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

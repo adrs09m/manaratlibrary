@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/contact_bg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- أيقونة -->
+        <ImageView
+            android:id="@+id/contact_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_contact"
+            android:contentDescription="تواصل معنا" />
+
+        <!-- العنوان -->
+        <TextView
+            android:id="@+id/contact_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تواصل معنا"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/my_text_primary"
+            android:layout_marginTop="12dp" />
+
+        <!-- معلومات الاتصال -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📍 قنا - جمهورية مصر العربية"
+            android:textColor="@color/my_text_secondary"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📧 info@example.com"
+            android:textColor="@color/my_text_secondary"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📱 +20 50 123 4567"
+            android:textColor="@color/my_text_secondary"
+            android:layout_marginTop="4dp" />
+
+        <!-- روابط التواصل الاجتماعي -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_facebook"
+                android:layout_marginEnd="12dp" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_twitter"
+                android:layout_marginEnd="12dp" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_instagram"
+                android:layout_marginEnd="12dp" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_whatsapp"
+                android:layout_marginEnd="12dp" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_telegram" />
+        </LinearLayout>
+
+        <!-- نموذج الاتصال -->
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="الاسم الكامل"
+            android:background="@drawable/contact_edittext_bg"
+            android:textColor="@color/my_input_text"
+            android:textColorHint="#E91E63"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="البريد الإلكتروني"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/contact_edittext_bg"
+            android:textColor="@color/my_input_text"
+            android:textColorHint="#125651"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/subjectInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="عنوان الرسالة"
+            android:background="@drawable/contact_edittext_bg"
+            android:textColor="@color/my_input_text"
+            android:textColorHint="#009688"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="محتوى الرسالة"
+            android:inputType="textMultiLine"
+            android:gravity="top|start"
+            android:background="@drawable/contact_edittext_bg"
+            android:textColor="@color/my_input_text"
+            android:textColorHint="#0E433F"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+        <!-- زر الإرسال -->
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إرسال"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/my_button_color"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <!-- زر إرسال عبر البريد -->
+        <Button
+            android:id="@+id/emailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إرسال عبر البريد"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+        <!-- مواعيد العمل -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🕒 يوميًا من 9 صباحًا إلى 5 مساءً"
+            android:textColor="@color/my_text_secondary"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

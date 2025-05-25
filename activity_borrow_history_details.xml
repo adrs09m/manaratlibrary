@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bookTitleTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="عنوان الكتاب"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/userNameTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="اسم المستخدم: مستخدم"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/userEmailTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="الإيميل: user@example.com"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/bookIdTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="معرف الكتاب: "
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/requestDateTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="تاريخ الطلب: dd/mm/yyyy"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/approvalRejectionDateTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="تاريخ الموافقة/الرفض: dd/mm/yyyy"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/statusTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="الحالة: موافق/مرفوض/مستعار/مرتجع"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/borrowDurationTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="مدة الاستعارة: X أيام"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/borrowerRatingTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="تقييم المستعير: جيد/متوسط/ضعيف"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/returnDateTextViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="تاريخ الإرجاع: dd/mm/yyyy" />
+
+    </LinearLayout>
+
+</ScrollView>

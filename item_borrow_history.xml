@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/item_background">
+
+    <TextView
+        android:id="@+id/historyBookTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="عنوان الكتاب"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/historyUserNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="اسم المستخدم: مستخدم"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/historyUserEmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="الإيميل: user@example.com"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/historyApprovalRejectionDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="تاريخ الموافقة/الرفض: dd/mm/yyyy"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/historyStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="الحالة: موافق/مرفوض/مستعار/مرتجع"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/historyBorrowDurationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="مدة الاستعارة: X أيام"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/historyBorrowerRatingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="تقييم المستعير: جيد/متوسط/ضعيف"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/historyReturnDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="تاريخ الإرجاع: dd/mm/yyyy"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/historyReturnStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="حالة الإرجاع: لم يتم الإرجاع" />
+
+    <Button
+        android:id="@+id/returnBookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="رد الاستعارة"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

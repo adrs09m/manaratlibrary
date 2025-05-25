@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalligraphyWorkshopDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/workshop_details_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/calligraphy_details_header"
+            android:contentDescription="صورة تفاصيل ورشة عمل فن الخط"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="فن الخط"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مقدمة"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/introduction_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[سيتم تعبئة النص هنا]"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/tools_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/calligraphy_tools"
+            android:contentDescription="صورة أدوات الخط"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tools_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الأدوات الأساسية التي يستخدمها فنان الخط هي قلم الحبر والفرشاة. وتكون أقلام الخط مسطحة الحواف أو مدوّرة أو مدببة. ويمكن استخدام الأقلام متعددة الحواف أو الفرش الصلبة لأغراض تصميمية مختلفة.\n\nيمكن أيضًا تصميم العمل الفني باستخدام أقلام الحبر ذات الرأس الكروي أو الأقلام الملونة، مع أن مثل هذه الأدوات لا يمكن استخدامها لتكوين خطوط ذات زوايا حادة. بعض الأساليب المستخدمة في فن الخط مثل أسلوب الكتابة القوطية، تتطلب قلم حبر ذا سن معدني.\n\nحبر الكتابة تكون مادته الأساسية غالبًا هي الماء، ليكون أقل لزوجة من الحبر المستخدم للطباعة، الذي تكون مادته الأساسية هي الزيت.\n\nأمّا الورق فيكون من نوعية خاصة لها قابلية امتصاص عالية للحبر وذات ملمس ناعم يسهل رسم الخطوط. ويُستخدم غالبًا ورق البرشمان وورق الفيلوم، وتُزال الأخطاء بسكين حادة. ولا توجد حاجة لاستخدام الصندوق المضيء لصناعة خطوط مستقيمة. أما الورق المخطط فتكون الخطوط فيه متباعدة بمقدار نصف أو ربع بوصة وأحيانًا بوصة. مثل ورق litterea unciales وورق صناعة الكولاج المخطط.\n\nمن أشهر أدوات الخط: الريشة وقلم التغميس في الحبر وفرشاة الحبر والقلم العادي وقلم الحبر السائل."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="التقاليد العالمية في فن الخط"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/traditions_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[سيتم تعبئة النص هنا]"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="التاريخ"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/history_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[سيتم تعبئة النص هنا]"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تقنيات الخط"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/techniques_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تستخدم الكتابة الشرق آسيوية التقليدية الركائز الأربعة لدراسة الخط (文房四寶 / 文房四宝): (20) أولها فرش الحبر المعروفة باسم (máobǐ (毛筆 / 毛笔 لكتابة الأحرف الصينية، والحبر الصيني، والورق، والحبر، التي تُعرف باسم المرافقين الأربعة لدراسة الخط (الكورية: 문방 사우) في كوريا. إضافةً إلى هذه الأدوات الأربعة، يُستخدم أيضًا المكتب وشرائح الورق.\n\nإن شكل وحجم وسيولة ونوع شعر فرشاة الحبر، ولون وكثافة اللون وكثافة المياه في الحبر، إضافةً إلى سرعة امتصاص الماء والملمس السطحي للورقة، هي الصفات الفيزيائية الرئيسية التي تؤثر في النتيجة النهائية للعمل الفني.\n\nتؤثر تقنية الخطاط أيضًا في النتيجة. يتأثر عمل الخطاط بكمية الحبر والماء التي يتركها في الفرشاة، وبالضغط والميل والاتجاه الذي يعطيه للفرشاة، إذ يستطيع أن يرسم زوايا أرفع أو أعرض، وحدودًا ناعمة أو مسننة.\n\nأيضًا فإن السرعة والبطء في تحركات فنان الخط، والانعطافات، والتمازج، وتنظيم ضربات الفرشاة وحركتها يعطي «روحًا» للأحرف المرسومة ويؤثر كثيرًا في أشكالها النهائية."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="أساليب الخط"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/styles_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[سيتم تعبئة النص هنا]"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="التأثيرات"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/influences_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[سيتم تعبئة النص هنا]"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/contemporary_header_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/calligraphy_contemporary"
+            android:contentDescription="صورة فن الخط المعاصر"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="فن الخط المعاصر"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/contemporary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="بعد أن انتشرت الطباعة في كل مكان حول العالم منذ القرن الخامس عشر حتى الآن، قل إنتاج المخطوطات اليدوية. ومع ذلك، لم يعن انتشار الطباعة نهاية فن الخط.\n\nبدأ إحياء الخط الحديث في نهاية القرن التاسع عشر، متأثرًا بجماليات وفلسفة وليام موريس وحركة الفنون والحرف. ويعد إدوارد جونستون أبا الخط الحديث. وبعد دراسته النسخ المنشورة للمخطوطات الخاصة بالمهندس المعماري وليام هاريسون كوليشاو، قُدم جونستون إلى ويليام ليثابي سنة 1898، مدير المدرسة المركزية للفنون والحرف اليدوية، الذي نصحه بدراسة المخطوطات في المتحف البريطاني."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الإحياء"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/revival_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[سيتم تعبئة النص هنا]"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

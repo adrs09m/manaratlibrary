@@ -1,0 +1,60 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="72dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:layoutDirection="rtl">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:id="@+id/suggestion_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عنوان الاقتراح"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:gravity="end" />
+
+            <TextView
+                android:id="@+id/suggestion_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اسم المؤلف"
+                android:textSize="12sp"
+                android:textColor="#777"
+                android:layout_marginTop="2dp"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/suggestion_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_book_orange"
+            android:contentDescription="أيقونة كتاب"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

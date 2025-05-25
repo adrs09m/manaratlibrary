@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp"
+              android:background="#F5F5F5">
+
+    <!-- الحالة -->
+    <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الحالة: غير متصل"
+            android:textColor="#388E3C"
+            android:textSize="18sp" />
+
+    <!-- زر بدء وإيقاف الالتقاط -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:weightSum="2">
+
+        <Button
+                android:id="@+id/btn_start_scan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ابدأ الالتقاط"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="4dp" />
+
+        <Button
+                android:id="@+id/btn_stop_scan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="إيقاف الالتقاط"
+                android:backgroundTint="#D32F2F"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="4dp" />
+    </LinearLayout>
+
+    <!-- صندوق عرض الرسائل -->
+    <TextView
+            android:id="@+id/tv_messages"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="لا توجد رسائل بعد"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:gravity="start|top"
+            android:scrollbars="vertical"
+            android:overScrollMode="always" />
+
+    <!-- صورة الروبوت -->
+    <ImageView
+            android:id="@+id/iv_robot"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            android:src="@drawable/robot"
+            android:contentDescription="روبوت" />
+
+    <!-- زر نسخ -->
+    <Button
+            android:id="@+id/btn_copy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نسخ"
+            android:backgroundTint="#81C784"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+    <!-- زر مسح -->
+    <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مسح"
+            android:backgroundTint="#A1887F"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+    <!-- زر مشاركة -->
+    <Button
+            android:id="@+id/btn_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مشاركة"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+</LinearLayout>
